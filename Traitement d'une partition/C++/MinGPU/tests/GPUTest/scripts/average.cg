@@ -1,0 +1,6 @@
+float4 Average (
+    float2 C : TEXCOORD0,
+    samplerRECT src, samplerRECT dest) : COLOR
+{
+    return (texRECT(dest, C) + texRECT(src, C)) / 2;
+}

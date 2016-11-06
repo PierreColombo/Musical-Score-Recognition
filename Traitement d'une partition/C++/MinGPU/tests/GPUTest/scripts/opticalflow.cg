@@ -1,0 +1,55 @@
+float4 OpticalFlow (
+    float2 C : TEXCOORD0,
+    samplerRECT SIx2, samplerRECT SIy2, samplerRECT SIxIy, samplerRECT SIxIt, samplerRECT SIyIt) : COLOR 
+{
+    float2x2 A;
+    A[0][0]= texRECT(SIx2,C).r;
+    A[0][1]= texRECT(SIxIy,C).r;
+    A[1][0]= texRECT(SIxIy,C).r;
+    A[1][1]= texRECT(SIy2,C).r;
+    float2 B;
+    B[0] = - texRECT(SIxIt, C).r;
+    B[1] = - texRECT(SIyIt, C).r;
+    float2x2 invA = 1/determinant(A) * float2x2(A[1][1], -A[0][1], -A[1][0], A[0][0]); 	 
+    float2 uv = mul(A, B);
+    float4 result;
+    result.r = uv[0];
+    result.g = uv[1];		
+    return result;
+}
+
+float4 Sum2 (
+    float2 C : TEXCOORD0,
+    samplerRECT I) : COLOR
+{
+    float4 val;
+    float4 result = 0;
+    for (int row = -2; row <= 2; row ++)
+    {
+      for (int col = -2; col <= 2; col ++)
+      {
+	val = texRECT(I, C + float2(col, row));
+        result = result + val * val; 
+      }
+    }
+    return result;
+}
+
+float4 SumXY (
+    float2 C : TEXCOORD0,
+    samplerRECT X, samplerRECT Y) : COLOR
+{
+    float4 val1, val2;
+    float4 result = 0;
+    for (int row = -2; row <= 2; row ++)
+    {
+      for (int col = -2; col <= 2; col ++)
+      {
+	val1 = texRECT(X, C + float2(col, row));
+	val2 = texRECT(Y, C + float2(col, row));
+        result = result + val1 * val2; 
+      }
+    }
+    return result;
+}
+

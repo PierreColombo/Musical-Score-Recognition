@@ -1,0 +1,848 @@
+# depslib dependency file v1.0
+1456312205 source:/home/paul/Documents/Work/Partitionna/correction_biais.cpp
+	<iostream>
+	<images.h>
+	<math.h>
+	<Eigen/Dense>
+
+1456247713 /home/paul/Documents/Work/Partitionna/include/image.h
+	<Eigen/Dense>
+
+1462295450 source:/home/paul/Documents/Work/Partitionna/main.cpp
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<iostream>
+	<Eigen/Dense>
+	<imageProc.h>
+	<struct.h>
+	<correction_biais.h>
+	<detectionInterligne.h>
+	<rechercheDesXis.h>
+	<sousImagePortee.h>
+	<effacementPortee.h>
+	<histogrammeLargeurLigne.h>
+	<emboitage.h>
+	<fusionVerticale.h>
+	<carteEmpans.h>
+	<carteFinaleDesEmpans.h>
+	<selectionUniqueEmpan.h>
+	<sellectionPlusieursEmpans.h>
+	<emboitageImage.h>
+	<reconnaissancenotes.h>
+	<ecritureNote.h>
+
+1457529646 source:/home/paul/Documents/Work/Partitionna/src/cart.cpp
+	"cart.h"
+
+1456243924 /home/paul/Documents/Work/Partitionna/include/cart.h
+
+1456311673 source:/home/paul/Documents/Work/Partitionna/src/image.cpp
+
+1456249190 source:/home/paul/Documents/Work/Partitionna/maxe.cpp
+	<iostream>
+
+1457529646 source:/home/paul/Documents/Work/Partitionna/src/xcorr.cpp
+	<iostream>
+	"Eigen/Dense"
+
+1456496670 source:/home/paul/Documents/Work/Partitionna/detectionInterligne.cpp
+
+1462277762 /home/paul/Documents/Work/Partitionna/include/struct.h
+	"Eigen/Dense"
+	<vector>
+	<iostream>
+
+1462283921 source:/home/paul/Documents/Work/Partitionna/src/rechercheDesXis.cpp
+	<rechercheDesXis.h>
+
+1461756016 source:/home/paul/Documents/Work/Partitionna/src/imageProc.cpp
+	<imageProc.h>
+
+1456315782 /home/paul/Documents/Work/Partitionna/include/images.h
+	<Eigen/Dense>
+
+1457529646 source:/home/paul/Documents/Work/Partitionna/src/images.cpp
+	"images.h"
+
+1461333004 /home/paul/Documents/Work/Partitionna/include/imageProc.h
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	"opencv2/imgproc/imgproc.hpp"
+	<iostream>
+	<struct.h>
+	<math.h>
+
+1461768706 source:/home/paul/Documents/Work/Partitionna/src/sousImagePortee.cpp
+	<sousImagePortee.h>
+
+1457452984 /home/paul/Documents/Work/Partitionna/include/sousImagePortee.h
+	<iostream>
+	<struct.h>
+
+1461947651 source:/home/paul/Documents/Work/Partitionna/src/correction_biais.cpp
+	<correction_biais.h>
+
+1461161766 /home/paul/Documents/Work/Partitionna/include/correction_biais.h
+	<iostream>
+	<images.h>
+	<math.h>
+	<Eigen/Dense>
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	"opencv2/imgproc/imgproc.hpp"
+	<pthread.h>
+	<struct.h>
+	<thread>
+	<complex.h>
+	<fftw3.h>
+
+1458334366 /home/paul/Documents/Work/Partitionna/include/detectionInterligne.h
+	<iostream>
+	<struct.h>
+	<thread>
+
+1461230247 source:/home/paul/Documents/Work/Partitionna/src/detectionInterligne.cpp
+	<detectionInterligne.h>
+
+1456932163 /home/paul/Documents/Work/Partitionna/MinGPU/MinGPU/gpu.h
+	<GL/glew.h>
+	<GL/glut.h>
+	<Cg/cgGL.h>
+	"../MinGPU/Vision/image.h"
+
+1456932212 /home/paul/Documents/Work/Partitionna/MinGPU/Vision/image.h
+	"struct.h"
+
+1179501976 source:/home/paul/Documents/Work/Partitionna/MinGPU/Math/stdafx.cpp
+	"stdafx.h"
+
+1179630830 /home/paul/Documents/Work/Partitionna/MinGPU/Math/stdafx.h
+
+1457529646 source:/home/paul/Documents/Work/Partitionna/src/effacementPortee.cpp
+	<effacementPortee.h>
+
+1457452948 /home/paul/Documents/Work/Partitionna/include/rechercheDesXis.h
+	<iostream>
+	<list>
+	<struct.h>
+	"Eigen/Dense"
+
+1457456420 /home/paul/Documents/Work/Partitionna/include/effacementPortee.h
+	<stdio.h>
+	<struct.h>
+	<Eigen/Dense>
+
+1457536534 source:/home/paul/Documents/Work/Partitionna/src/test.cpp
+
+1458040358 source:/home/paul/Documents/Work/Partitionna/src/histogrammeLargeurLigne.cpp
+	<histogrammeLargeurLigne.h>
+
+1458037082 /home/paul/Documents/Work/Partitionna/include/histogrammeLargeurLigne.h
+	<iostream>
+	<struct.h>
+
+1458143898 source:/home/paul/Documents/Work/Partitionna/src/coordDebutFin.cpp
+	<coordDebutFin.h>
+
+1458143666 /home/paul/Documents/Work/Partitionna/include/coordDebutFin.h
+	<struct.h>
+
+1461332159 source:/home/paul/Documents/Work/Partitionna/src/carteEmpans.cpp
+	<carteEmpans.h>
+
+1458145552 /home/paul/Documents/Work/Partitionna/include/carteEmpans.h
+	<images.h>
+	<Eigen/Dense>
+	<math.h>
+	<iostream>
+
+1459936664 source:/home/paul/Documents/Work/Partitionna/src/carteFinaleDesEmpans.cpp
+	<carteFinaleDesEmpans.h>
+	<cmath>
+
+1458145562 /home/paul/Documents/Work/Partitionna/include/carteFinaleDesEmpans.h
+	<images.h>
+	<Eigen/Dense>
+	<math.h>
+	<iostream>
+
+1461333766 source:/home/paul/Documents/Work/Partitionna/src/fusionVerticale.cpp
+	<fusionVerticale.h>
+
+1458145566 /home/paul/Documents/Work/Partitionna/include/fusionVerticale.h
+	<images.h>
+	<Eigen/Dense>
+	<math.h>
+	<iostream>
+
+1459936836 source:/home/paul/Documents/Work/Partitionna/src/selectionUniqueEmpan.cpp
+	<algorithm>
+	<selectionUniqueEmpan.h>
+
+1458145570 /home/paul/Documents/Work/Partitionna/include/selectionUniqueEmpan.h
+	<images.h>
+	<Eigen/Dense>
+	<math.h>
+	<iostream>
+
+1459936836 source:/home/paul/Documents/Work/Partitionna/src/sellectionPlusieursEmpans.cpp
+	<sellectionPlusieursEmpans.h>
+
+1458145576 /home/paul/Documents/Work/Partitionna/include/sellectionPlusieursEmpans.h
+	<images.h>
+	<Eigen/Dense>
+	<math.h>
+	<iostream>
+
+1458146158 /home/paul/Documents/Work/Partitionna/include/emboitage.h
+	<struct.h>
+
+1458157090 /home/paul/Documents/Work/Partitionna/include/emboitageImage.h
+	<struct.h>
+	<stack>
+	<list>
+
+1461332770 source:/home/paul/Documents/Work/Partitionna/src/emboitageImage.cpp
+	<emboitageImage.h>
+
+1456496670 source:/home/paulphysicist/Documents/Partitionna/detectionInterligne.cpp
+
+1459935936 source:/home/paulphysicist/Documents/Partitionna/main.cpp
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<iostream>
+	<Eigen/Dense>
+	<imageProc.h>
+	<struct.h>
+	<correction_biais.h>
+	<detectionInterligne.h>
+	<rechercheDesXis.h>
+	<sousImagePortee.h>
+	<effacementPortee.h>
+	<histogrammeLargeurLigne.h>
+	<emboitage.h>
+	<fusionVerticale.h>
+	<carteEmpans.h>
+	<carteFinaleDesEmpans.h>
+	<selectionUniqueEmpan.h>
+	<sellectionPlusieursEmpans.h>
+	<emboitageImage.h>
+
+1458151846 /home/paulphysicist/Documents/Partitionna/include/imageProc.h
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	"opencv2/imgproc/imgproc.hpp"
+	<iostream>
+	<struct.h>
+	<math.h>
+
+1458334898 /home/paulphysicist/Documents/Partitionna/include/struct.h
+	"Eigen/Dense"
+	<vector>
+	<iostream>
+
+1457475776 /home/paulphysicist/Documents/Partitionna/include/correction_biais.h
+	<iostream>
+	<images.h>
+	<math.h>
+	<Eigen/Dense>
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	"opencv2/imgproc/imgproc.hpp"
+	<pthread.h>
+	<struct.h>
+	<thread>
+
+1456315782 /home/paulphysicist/Documents/Partitionna/include/images.h
+	<Eigen/Dense>
+
+1458334366 /home/paulphysicist/Documents/Partitionna/include/detectionInterligne.h
+	<iostream>
+	<struct.h>
+	<thread>
+
+1457452948 /home/paulphysicist/Documents/Partitionna/include/rechercheDesXis.h
+	<iostream>
+	<list>
+	<struct.h>
+	"Eigen/Dense"
+
+1457452984 /home/paulphysicist/Documents/Partitionna/include/sousImagePortee.h
+	<iostream>
+	<struct.h>
+
+1457456420 /home/paulphysicist/Documents/Partitionna/include/effacementPortee.h
+	<stdio.h>
+	<struct.h>
+	<Eigen/Dense>
+
+1458037082 /home/paulphysicist/Documents/Partitionna/include/histogrammeLargeurLigne.h
+	<iostream>
+	<struct.h>
+
+1458146158 /home/paulphysicist/Documents/Partitionna/include/emboitage.h
+	<struct.h>
+
+1458145566 /home/paulphysicist/Documents/Partitionna/include/fusionVerticale.h
+	<images.h>
+	<Eigen/Dense>
+	<math.h>
+	<iostream>
+
+1458145552 /home/paulphysicist/Documents/Partitionna/include/carteEmpans.h
+	<images.h>
+	<Eigen/Dense>
+	<math.h>
+	<iostream>
+
+1458145562 /home/paulphysicist/Documents/Partitionna/include/carteFinaleDesEmpans.h
+	<images.h>
+	<Eigen/Dense>
+	<math.h>
+	<iostream>
+
+1458145570 /home/paulphysicist/Documents/Partitionna/include/selectionUniqueEmpan.h
+	<images.h>
+	<Eigen/Dense>
+	<math.h>
+	<iostream>
+
+1458145576 /home/paulphysicist/Documents/Partitionna/include/sellectionPlusieursEmpans.h
+	<images.h>
+	<Eigen/Dense>
+	<math.h>
+	<iostream>
+
+1458157090 /home/paulphysicist/Documents/Partitionna/include/emboitageImage.h
+	<struct.h>
+	<stack>
+	<list>
+
+1456249190 source:/home/paulphysicist/Documents/Partitionna/maxe.cpp
+	<iostream>
+
+1457529646 source:/home/paulphysicist/Documents/Partitionna/src/cart.cpp
+	"cart.h"
+
+1456243924 /home/paulphysicist/Documents/Partitionna/include/cart.h
+
+1459934977 source:/home/paulphysicist/Documents/Partitionna/src/carteEmpans.cpp
+	<carteEmpans.h>
+
+1459936664 source:/home/paulphysicist/Documents/Partitionna/src/carteFinaleDesEmpans.cpp
+	<carteFinaleDesEmpans.h>
+	<cmath>
+
+1458143898 source:/home/paulphysicist/Documents/Partitionna/src/coordDebutFin.cpp
+	<coordDebutFin.h>
+
+1458143666 /home/paulphysicist/Documents/Partitionna/include/coordDebutFin.h
+	<struct.h>
+
+1458171852 source:/home/paulphysicist/Documents/Partitionna/src/correction_biais.cpp
+	<correction_biais.h>
+
+1458335700 source:/home/paulphysicist/Documents/Partitionna/src/detectionInterligne.cpp
+	<detectionInterligne.h>
+
+1457529646 source:/home/paulphysicist/Documents/Partitionna/src/effacementPortee.cpp
+	<effacementPortee.h>
+
+1459602414 source:/home/paulphysicist/Documents/Partitionna/src/emboitageImage.cpp
+	<emboitageImage.h>
+
+1459936664 source:/home/paulphysicist/Documents/Partitionna/src/fusionVerticale.cpp
+	<fusionVerticale.h>
+
+1458040358 source:/home/paulphysicist/Documents/Partitionna/src/histogrammeLargeurLigne.cpp
+	<histogrammeLargeurLigne.h>
+
+1458151802 source:/home/paulphysicist/Documents/Partitionna/src/imageProc.cpp
+	<imageProc.h>
+
+1457529646 source:/home/paulphysicist/Documents/Partitionna/src/images.cpp
+	"images.h"
+
+1457529646 source:/home/paulphysicist/Documents/Partitionna/src/rechercheDesXis.cpp
+	<rechercheDesXis.h>
+
+1459936835 source:/home/paulphysicist/Documents/Partitionna/src/selectionUniqueEmpan.cpp
+	<algorithm>
+	<selectionUniqueEmpan.h>
+
+1459936835 source:/home/paulphysicist/Documents/Partitionna/src/sellectionPlusieursEmpans.cpp
+	<sellectionPlusieursEmpans.h>
+
+1458041808 source:/home/paulphysicist/Documents/Partitionna/src/sousImagePortee.cpp
+	<sousImagePortee.h>
+
+1457536534 source:/home/paulphysicist/Documents/Partitionna/src/test.cpp
+
+1457529646 source:/home/paulphysicist/Documents/Partitionna/src/xcorr.cpp
+	<iostream>
+	"Eigen/Dense"
+
+1456500270 source:/home/colombo/Téléchargements/Partitionna/detectionInterligne.cpp
+
+1462366419 source:/home/colombo/Téléchargements/Partitionna/main.cpp
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<iostream>
+	<Eigen/Dense>
+	<imageProc.h>
+	<struct.h>
+	<correction_biais.h>
+	<detectionInterligne.h>
+	<rechercheDesXis.h>
+	<sousImagePortee.h>
+	<effacementPortee.h>
+	<histogrammeLargeurLigne.h>
+	<emboitage.h>
+	<fusionVerticale.h>
+	<carteEmpans.h>
+	<carteFinaleDesEmpans.h>
+	<selectionUniqueEmpan.h>
+	<sellectionPlusieursEmpans.h>
+	<emboitageImage.h>
+	<reconnaissancenotes.h>
+	<ecritureNote.h>
+
+1461333004 /home/colombo/Téléchargements/Partitionna/include/imageProc.h
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	"opencv2/imgproc/imgproc.hpp"
+	<iostream>
+	<struct.h>
+	<math.h>
+
+1462277762 /home/colombo/Téléchargements/Partitionna/include/struct.h
+	"Eigen/Dense"
+	<vector>
+	<iostream>
+
+1462362063 /home/colombo/Téléchargements/Partitionna/include/correction_biais.h
+	<iostream>
+	<images.h>
+	<math.h>
+	<Eigen/Dense>
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	"opencv2/imgproc/imgproc.hpp"
+	<pthread.h>
+	<struct.h>
+	<thread>
+	<complex.h>
+
+1456319382 /home/colombo/Téléchargements/Partitionna/include/images.h
+	<Eigen/Dense>
+
+1458337966 /home/colombo/Téléchargements/Partitionna/include/detectionInterligne.h
+	<iostream>
+	<struct.h>
+	<thread>
+
+1457456548 /home/colombo/Téléchargements/Partitionna/include/rechercheDesXis.h
+	<iostream>
+	<list>
+	<struct.h>
+	"Eigen/Dense"
+
+1457456584 /home/colombo/Téléchargements/Partitionna/include/sousImagePortee.h
+	<iostream>
+	<struct.h>
+
+1457460020 /home/colombo/Téléchargements/Partitionna/include/effacementPortee.h
+	<stdio.h>
+	<struct.h>
+	<Eigen/Dense>
+
+1458040682 /home/colombo/Téléchargements/Partitionna/include/histogrammeLargeurLigne.h
+	<iostream>
+	<struct.h>
+
+1458149758 /home/colombo/Téléchargements/Partitionna/include/emboitage.h
+	<struct.h>
+
+1458149166 /home/colombo/Téléchargements/Partitionna/include/fusionVerticale.h
+	<images.h>
+	<Eigen/Dense>
+	<math.h>
+	<iostream>
+
+1458149152 /home/colombo/Téléchargements/Partitionna/include/carteEmpans.h
+	<images.h>
+	<Eigen/Dense>
+	<math.h>
+	<iostream>
+
+1458149162 /home/colombo/Téléchargements/Partitionna/include/carteFinaleDesEmpans.h
+	<images.h>
+	<Eigen/Dense>
+	<math.h>
+	<iostream>
+
+1458149170 /home/colombo/Téléchargements/Partitionna/include/selectionUniqueEmpan.h
+	<images.h>
+	<Eigen/Dense>
+	<math.h>
+	<iostream>
+
+1458149176 /home/colombo/Téléchargements/Partitionna/include/sellectionPlusieursEmpans.h
+	<images.h>
+	<Eigen/Dense>
+	<math.h>
+	<iostream>
+
+1458160690 /home/colombo/Téléchargements/Partitionna/include/emboitageImage.h
+	<struct.h>
+	<stack>
+	<list>
+
+1456252790 source:/home/colombo/Téléchargements/Partitionna/maxe.cpp
+	<iostream>
+
+1457533246 source:/home/colombo/Téléchargements/Partitionna/src/cart.cpp
+	"cart.h"
+
+1456247524 /home/colombo/Téléchargements/Partitionna/include/cart.h
+
+1461332158 source:/home/colombo/Téléchargements/Partitionna/src/carteEmpans.cpp
+	<carteEmpans.h>
+
+1459936664 source:/home/colombo/Téléchargements/Partitionna/src/carteFinaleDesEmpans.cpp
+	<carteFinaleDesEmpans.h>
+	<cmath>
+
+1458147498 source:/home/colombo/Téléchargements/Partitionna/src/coordDebutFin.cpp
+	<coordDebutFin.h>
+
+1458147266 /home/colombo/Téléchargements/Partitionna/include/coordDebutFin.h
+	<struct.h>
+
+1461947650 source:/home/colombo/Téléchargements/Partitionna/src/correction_biais.cpp
+	<correction_biais.h>
+
+1461230246 source:/home/colombo/Téléchargements/Partitionna/src/detectionInterligne.cpp
+	<detectionInterligne.h>
+
+1457533246 source:/home/colombo/Téléchargements/Partitionna/src/effacementPortee.cpp
+	<effacementPortee.h>
+
+1461332770 source:/home/colombo/Téléchargements/Partitionna/src/emboitageImage.cpp
+	<emboitageImage.h>
+
+1461333766 source:/home/colombo/Téléchargements/Partitionna/src/fusionVerticale.cpp
+	<fusionVerticale.h>
+
+1458043958 source:/home/colombo/Téléchargements/Partitionna/src/histogrammeLargeurLigne.cpp
+	<histogrammeLargeurLigne.h>
+
+1461756016 source:/home/colombo/Téléchargements/Partitionna/src/imageProc.cpp
+	<imageProc.h>
+
+1457533246 source:/home/colombo/Téléchargements/Partitionna/src/images.cpp
+	"images.h"
+
+1462283920 source:/home/colombo/Téléchargements/Partitionna/src/rechercheDesXis.cpp
+	<rechercheDesXis.h>
+
+1459936836 source:/home/colombo/Téléchargements/Partitionna/src/selectionUniqueEmpan.cpp
+	<algorithm>
+	<selectionUniqueEmpan.h>
+
+1459936836 source:/home/colombo/Téléchargements/Partitionna/src/sellectionPlusieursEmpans.cpp
+	<sellectionPlusieursEmpans.h>
+
+1461768706 source:/home/colombo/Téléchargements/Partitionna/src/sousImagePortee.cpp
+	<sousImagePortee.h>
+
+1457540134 source:/home/colombo/Téléchargements/Partitionna/src/test.cpp
+
+1457533246 source:/home/colombo/Téléchargements/Partitionna/src/xcorr.cpp
+	<iostream>
+	"Eigen/Dense"
+
+1461769132 /home/colombo/Téléchargements/Partitionna/include/reconnaissancenotes.h
+	<images.h>
+	<Eigen/Dense>
+	<math.h>
+	<iostream>
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/objdetect/objdetect.hpp"
+	"opencv2/gpu/gpu.hpp"
+	"opencv2/highgui/highgui.hpp"
+	<struct.h>
+
+1462295318 source:/home/colombo/Téléchargements/Partitionna/src/reconnaissancenotes.cpp
+	<reconnaissancenotes.h>
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/objdetect/objdetect.hpp"
+	"opencv2/gpu/gpu.hpp"
+	"opencv2/highgui/highgui.hpp"
+	<imageProc.h>
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1460806760 source:/home/colombo/Téléchargements/Partitionna/src/testrreo.cpp
+
+1461769133 /home/paul/Documents/Work/Partitionna/include/reconnaissancenotes.h
+	<images.h>
+	<Eigen/Dense>
+	<math.h>
+	<iostream>
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/objdetect/objdetect.hpp"
+	"opencv2/gpu/gpu.hpp"
+	"opencv2/highgui/highgui.hpp"
+	<struct.h>
+
+1462295318 source:/home/paul/Documents/Work/Partitionna/src/reconnaissancenotes.cpp
+	<reconnaissancenotes.h>
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/objdetect/objdetect.hpp"
+	"opencv2/gpu/gpu.hpp"
+	"opencv2/highgui/highgui.hpp"
+	<imageProc.h>
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1460806761 source:/home/paul/Documents/Work/Partitionna/src/testrreo.cpp
+
+1462279453 source:/home/paul/Documents/Work/Partitionna/src/ecritureNote.cpp
+	"ecritureNote.h"
+
+1462279423 /home/paul/Documents/Work/Partitionna/include/ecritureNote.h
+	<iostream>
+	<fstream>
+	<string>
+	"struct.h"
+
+1462364326 /home/colombo/Téléchargements/Partitionna/include/ecritureNote.h
+	<iostream>
+	<fstream>
+	<string>
+	"struct.h"
+
+1462364266 source:/home/colombo/Téléchargements/Partitionna/src/ecritureNote.cpp
+	"ecritureNote.h"
+
+1456500270 source:/home/colombo/Téléchargements/Partitionna_premiertests/detectionInterligne.cpp
+
+1456252790 source:/home/colombo/Téléchargements/Partitionna_premiertests/maxe.cpp
+	<iostream>
+
+1457533246 source:/home/colombo/Téléchargements/Partitionna_premiertests/src/cart.cpp
+	"cart.h"
+
+1456247524 /home/colombo/Téléchargements/Partitionna_premiertests/include/cart.h
+
+1461332158 source:/home/colombo/Téléchargements/Partitionna_premiertests/src/carteEmpans.cpp
+	<carteEmpans.h>
+
+1458149152 /home/colombo/Téléchargements/Partitionna_premiertests/include/carteEmpans.h
+	<images.h>
+	<Eigen/Dense>
+	<math.h>
+	<iostream>
+
+1456319382 /home/colombo/Téléchargements/Partitionna_premiertests/include/images.h
+	<Eigen/Dense>
+
+1459936664 source:/home/colombo/Téléchargements/Partitionna_premiertests/src/carteFinaleDesEmpans.cpp
+	<carteFinaleDesEmpans.h>
+	<cmath>
+
+1458149162 /home/colombo/Téléchargements/Partitionna_premiertests/include/carteFinaleDesEmpans.h
+	<images.h>
+	<Eigen/Dense>
+	<math.h>
+	<iostream>
+
+1458147498 source:/home/colombo/Téléchargements/Partitionna_premiertests/src/coordDebutFin.cpp
+	<coordDebutFin.h>
+
+1458147266 /home/colombo/Téléchargements/Partitionna_premiertests/include/coordDebutFin.h
+	<struct.h>
+
+1462277762 /home/colombo/Téléchargements/Partitionna_premiertests/include/struct.h
+	"Eigen/Dense"
+	<vector>
+	<iostream>
+
+1461947650 source:/home/colombo/Téléchargements/Partitionna_premiertests/src/correction_biais.cpp
+	<correction_biais.h>
+
+1462362063 /home/colombo/Téléchargements/Partitionna_premiertests/include/correction_biais.h
+	<iostream>
+	<images.h>
+	<math.h>
+	<Eigen/Dense>
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	"opencv2/imgproc/imgproc.hpp"
+	<pthread.h>
+	<struct.h>
+	<thread>
+	<complex.h>
+
+1461230246 source:/home/colombo/Téléchargements/Partitionna_premiertests/src/detectionInterligne.cpp
+	<detectionInterligne.h>
+
+1458337966 /home/colombo/Téléchargements/Partitionna_premiertests/include/detectionInterligne.h
+	<iostream>
+	<struct.h>
+	<thread>
+
+1462364266 source:/home/colombo/Téléchargements/Partitionna_premiertests/src/ecritureNote.cpp
+	"ecritureNote.h"
+
+1462364326 /home/colombo/Téléchargements/Partitionna_premiertests/include/ecritureNote.h
+	<iostream>
+	<fstream>
+	<string>
+	"struct.h"
+
+1457533246 source:/home/colombo/Téléchargements/Partitionna_premiertests/src/effacementPortee.cpp
+	<effacementPortee.h>
+
+1457460020 /home/colombo/Téléchargements/Partitionna_premiertests/include/effacementPortee.h
+	<stdio.h>
+	<struct.h>
+	<Eigen/Dense>
+
+1461332770 source:/home/colombo/Téléchargements/Partitionna_premiertests/src/emboitageImage.cpp
+	<emboitageImage.h>
+
+1458160690 /home/colombo/Téléchargements/Partitionna_premiertests/include/emboitageImage.h
+	<struct.h>
+	<stack>
+	<list>
+
+1461333766 source:/home/colombo/Téléchargements/Partitionna_premiertests/src/fusionVerticale.cpp
+	<fusionVerticale.h>
+
+1458149166 /home/colombo/Téléchargements/Partitionna_premiertests/include/fusionVerticale.h
+	<images.h>
+	<Eigen/Dense>
+	<math.h>
+	<iostream>
+
+1458043958 source:/home/colombo/Téléchargements/Partitionna_premiertests/src/histogrammeLargeurLigne.cpp
+	<histogrammeLargeurLigne.h>
+
+1458040682 /home/colombo/Téléchargements/Partitionna_premiertests/include/histogrammeLargeurLigne.h
+	<iostream>
+	<struct.h>
+
+1461756016 source:/home/colombo/Téléchargements/Partitionna_premiertests/src/imageProc.cpp
+	<imageProc.h>
+
+1461333004 /home/colombo/Téléchargements/Partitionna_premiertests/include/imageProc.h
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	"opencv2/imgproc/imgproc.hpp"
+	<iostream>
+	<struct.h>
+	<math.h>
+
+1457533246 source:/home/colombo/Téléchargements/Partitionna_premiertests/src/images.cpp
+	"images.h"
+
+1462283920 source:/home/colombo/Téléchargements/Partitionna_premiertests/src/rechercheDesXis.cpp
+	<rechercheDesXis.h>
+
+1457456548 /home/colombo/Téléchargements/Partitionna_premiertests/include/rechercheDesXis.h
+	<iostream>
+	<list>
+	<struct.h>
+	"Eigen/Dense"
+
+1462295318 source:/home/colombo/Téléchargements/Partitionna_premiertests/src/reconnaissancenotes.cpp
+	<reconnaissancenotes.h>
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/objdetect/objdetect.hpp"
+	"opencv2/gpu/gpu.hpp"
+	"opencv2/highgui/highgui.hpp"
+	<imageProc.h>
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1461769132 /home/colombo/Téléchargements/Partitionna_premiertests/include/reconnaissancenotes.h
+	<images.h>
+	<Eigen/Dense>
+	<math.h>
+	<iostream>
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/objdetect/objdetect.hpp"
+	"opencv2/gpu/gpu.hpp"
+	"opencv2/highgui/highgui.hpp"
+	<struct.h>
+
+1459936836 source:/home/colombo/Téléchargements/Partitionna_premiertests/src/selectionUniqueEmpan.cpp
+	<algorithm>
+	<selectionUniqueEmpan.h>
+
+1458149170 /home/colombo/Téléchargements/Partitionna_premiertests/include/selectionUniqueEmpan.h
+	<images.h>
+	<Eigen/Dense>
+	<math.h>
+	<iostream>
+
+1459936836 source:/home/colombo/Téléchargements/Partitionna_premiertests/src/sellectionPlusieursEmpans.cpp
+	<sellectionPlusieursEmpans.h>
+
+1458149176 /home/colombo/Téléchargements/Partitionna_premiertests/include/sellectionPlusieursEmpans.h
+	<images.h>
+	<Eigen/Dense>
+	<math.h>
+	<iostream>
+
+1461768706 source:/home/colombo/Téléchargements/Partitionna_premiertests/src/sousImagePortee.cpp
+	<sousImagePortee.h>
+
+1457456584 /home/colombo/Téléchargements/Partitionna_premiertests/include/sousImagePortee.h
+	<iostream>
+	<struct.h>
+
+1457540134 source:/home/colombo/Téléchargements/Partitionna_premiertests/src/test.cpp
+
+1460806760 source:/home/colombo/Téléchargements/Partitionna_premiertests/src/testrreo.cpp
+
+1457533246 source:/home/colombo/Téléchargements/Partitionna_premiertests/src/xcorr.cpp
+	<iostream>
+	"Eigen/Dense"
+
+1462784007 source:/home/colombo/Téléchargements/Partitionna_premiertests/main.cpp
+	<mainFunction.h>
+	<dirent.h>
+	<vector>
+
+1458149758 /home/colombo/Téléchargements/Partitionna_premiertests/include/emboitage.h
+	<struct.h>
+
+1462535480 /home/colombo/Téléchargements/Partitionna_premiertests/include/mainFunction.h
+	<opencv2/core/core.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<iostream>
+	<Eigen/Dense>
+	<imageProc.h>
+	<struct.h>
+	<correction_biais.h>
+	<detectionInterligne.h>
+	<rechercheDesXis.h>
+	<sousImagePortee.h>
+	<effacementPortee.h>
+	<histogrammeLargeurLigne.h>
+	<emboitage.h>
+	<fusionVerticale.h>
+	<carteEmpans.h>
+	<carteFinaleDesEmpans.h>
+	<selectionUniqueEmpan.h>
+	<sellectionPlusieursEmpans.h>
+	<emboitageImage.h>
+	<reconnaissancenotes.h>
+	<ecritureNote.h>
+
+1462783867 source:/home/colombo/Téléchargements/Partitionna_premiertests/src/mainFunction.cpp
+	<mainFunction.h>
+

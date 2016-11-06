@@ -1,0 +1,13 @@
+Matlab for allowing us to test our algorithms.
+
+Eigen for Matrix modelisation, saved my brain from using the int** type
+
+OPenCV : image Processing
+
+MinGPU : xcorr2 optimization
+
+
+
+M. Geist, J. Fix : Help for deciding on how to detect and reckognize symbols
+J.L. Colette : Help on coding problems
+Rossignol & Ianotto : If we don't thank them we'll get a bad grade. But they were useless.

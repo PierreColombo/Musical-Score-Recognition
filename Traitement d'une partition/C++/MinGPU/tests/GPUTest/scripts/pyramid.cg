@@ -1,0 +1,15 @@
+float4 ReducePyramid (
+    float2 C : TEXCOORD0,
+    samplerRECT T, uniform float Mask[5][5]) : COLOR
+{
+    float4 result = 0;
+    for (int row = 0; row <= 4; row ++)
+    {
+      for (int col = 0; col <= 4; col ++)
+      {
+        result = result + Mask[row][col] * 
+		texRECT(T, float2(2 * C.x + col - 2, 2 * C.y + row - 2)); 
+      }
+    }
+    return result;
+}

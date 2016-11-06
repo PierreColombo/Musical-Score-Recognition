@@ -1,0 +1,13 @@
+float4 Homography (
+    float2 coords : TEXCOORD0, uniform float3x3 H, 
+	   uniform float ratio, uniform float x1, uniform float y1,
+    uniform samplerRECT view, uniform samplerRECT result) : COLOR 
+{
+    float3 C = float3(x1 + coords.x * ratio, y1 + coords.y * ratio, 1.0);
+	   float k = H[2][0] * C[0] + H[2][1] * C[1] + H[2][2] * C[2];
+	   float A = (H[0][0] * C[0] + H[0][1] * C[1] + H[0][2] * C[2]) / k;
+	   float B = (H[1][0] * C[0] + H[1][1] * C[1] + H[1][2] * C[2]) / k;
+    float4 x = texRECT(result, coords); 
+    float4 y = texRECT(view, float2(A, B));
+    return x + y;
+}

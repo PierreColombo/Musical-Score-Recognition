@@ -1,0 +1,97 @@
+float4 favg (
+    float2 C : TEXCOORD0,
+    samplerRECT I) : COLOR
+{
+    float4 result = 0;
+    for (int row = 0; row < 77; row ++)
+    {
+      for (int col = 0; col < 77; col ++)
+      {
+        result = result + texRECT(I, float2(C.x + col, C.y + row)); 
+      }
+    }
+    return result / (77.0 * 77.0);
+}
+
+
+float4 Snorm2 (
+    float2 C : TEXCOORD0,
+    samplerRECT fnorm) : COLOR
+{
+    float4 val = 0;
+    float4 result = 0;
+    for (int row = 0; row < 77; row ++)
+    {
+      for (int col = 0; col < 77; col ++)
+      {
+        val = texRECT(fnorm, float2(C.x + col, C.y + row));
+        result = result + val * val; 
+      }
+    }
+    return result;
+}
+
+float4 tavg (
+    float2 C : TEXCOORD0,
+    samplerRECT t) : COLOR
+{
+    float4 result = 0;
+    for (int row = 0; row < 77; row ++)
+    {
+      for (int col = 0; col < 77; col ++)
+      {
+        result = result + texRECT(t, float2(C.x + col, C.y + row)); 
+      }
+    }
+    return result / (77.0 * 77.0);
+}
+
+float4 tnorm (
+    float2 C : TEXCOORD0,
+    samplerRECT op1, samplerRECT op2) : COLOR
+{
+    return texRECT(op1, C) - texRECT(op2, float2(0, 0));
+}
+
+float4 Tnorm2 (
+    float2 C : TEXCOORD0,
+    samplerRECT tnorm) : COLOR
+{
+    float4 val = 0;
+    float4 result = 0;
+    for (int row = 0; row < 77; row ++)
+    {
+      for (int col = 0; col < 77; col ++)
+      {
+        val = texRECT(tnorm, float2(col, row));
+        result = result + val * val; 
+      }
+    }
+    return result;
+}
+
+float4 Correlation (
+    float2 C : TEXCOORD0,
+    samplerRECT fnorm, samplerRECT tnorm, 
+    samplerRECT Snorm2, samplerRECT Tnorm2) : COLOR
+{
+    float4 numerator = 0;
+    float4 denominator = sqrt(texRECT(Snorm2, C) * texRECT(Tnorm2, float2(0, 0)));
+    for (int row = 0; row < 77; row ++)
+    {
+      for (int col = 0; col < 77; col ++)
+      {
+        numerator = numerator + texRECT(fnorm, float2(C.x + col, C.y + row)) * texRECT(tnorm, float2(col, row)); 
+      }
+    }
+    return 255 * abs(numerator / denominator);
+}
+
+float4 Accumulate (
+    float2 C : TEXCOORD0,
+    samplerRECT acc, samplerRECT y) : COLOR
+{
+    float4 op1 = texRECT(acc, C);
+    float4 op2 = abs(texRECT(y, C));
+    return  max(op1, op2);
+}

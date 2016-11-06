@@ -1,0 +1,6 @@
+float4 Subtract (
+    float2 C : TEXCOORD0,
+    samplerRECT op1, samplerRECT op2) : COLOR
+{
+    return texRECT(op1, C) - texRECT(op2, C);
+}

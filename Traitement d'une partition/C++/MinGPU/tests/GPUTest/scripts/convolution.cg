@@ -1,0 +1,45 @@
+float4 Convolve3x3 (
+    float2 C : TEXCOORD0, 
+    samplerRECT T, uniform float K[3][3]) : COLOR 
+{
+    float4 result = 0;
+    for (int row = 0; row <= 2; row ++)
+    {
+      for (int col = 0; col <= 2; col++)
+      {
+        result = result + K[row][col] * texRECT(T, C + float2(col - 1, row - 1)); 
+      }
+    }
+    return result;
+}
+
+float4 Convolve5x5 (
+    float2 C : TEXCOORD0, 
+    samplerRECT T, uniform float K[5][5]) : COLOR 
+{
+    float4 result = 0;
+    for (int row = 0; row <= 4; row ++)
+    {
+      for (int col = 0; col <= 4; col++)
+      {
+        result = result + K[row][col] * texRECT(T, C + float2(col - 2, row - 2)); 
+      }
+    }
+    return result;
+}
+
+float4 Convolve7x7 (
+    float2 C : TEXCOORD0, 
+    samplerRECT T, uniform float K[7][7]) : COLOR 
+{
+    float4 result = 0;
+    for (int row = 0; row <= 6; row ++)
+    {
+      for (int col = 0; col <= 6; col++)
+      {
+        result = result + K[row][col] * texRECT(T, C + float2(col - 3, row - 3)); 
+      }
+    }
+    return result;
+}
+

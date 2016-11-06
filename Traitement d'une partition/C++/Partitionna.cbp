@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Partitionna" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="include/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Partitionna" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Partitionna" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="detectionInterligne.cpp" />
+		<Unit filename="include/cart.h" />
+		<Unit filename="include/carteEmpans.h" />
+		<Unit filename="include/carteFinaleDesEmpans.h" />
+		<Unit filename="include/coordDebutFin.h" />
+		<Unit filename="include/correction_biais.h" />
+		<Unit filename="include/detectionInterligne.h" />
+		<Unit filename="include/ecritureNote.h" />
+		<Unit filename="include/effacementPortee.h" />
+		<Unit filename="include/emboitage.h" />
+		<Unit filename="include/emboitageImage.h" />
+		<Unit filename="include/fusionVerticale.h" />
+		<Unit filename="include/histogrammeLargeurLigne.h" />
+		<Unit filename="include/imageProc.h" />
+		<Unit filename="include/images.h" />
+		<Unit filename="include/reconnaissancenotes.h" />
+		<Unit filename="include/selectionUniqueEmpan.h" />
+		<Unit filename="include/sellectionPlusieursEmpans.h" />
+		<Unit filename="include/sousImagePortee.h" />
+		<Unit filename="include/struct.h" />
+		<Unit filename="include/test.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="maxe.cpp" />
+		<Unit filename="src/Testreconnaissancenonfonction" />
+		<Unit filename="src/cart.cpp" />
+		<Unit filename="src/carteEmpans.cpp" />
+		<Unit filename="src/carteFinaleDesEmpans.cpp" />
+		<Unit filename="src/coordDebutFin.cpp" />
+		<Unit filename="src/correction_biais.cpp">
+			<Option virtualFolder="include/" />
+		</Unit>
+		<Unit filename="src/detectionInterligne.cpp" />
+		<Unit filename="src/ecritureNote.cpp" />
+		<Unit filename="src/effacementPortee.cpp" />
+		<Unit filename="src/emboitage.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/emboitageImage.cpp" />
+		<Unit filename="src/fusionVerticale.cpp" />
+		<Unit filename="src/histogrammeLargeurLigne.cpp" />
+		<Unit filename="src/imageProc.cpp" />
+		<Unit filename="src/images.cpp" />
+		<Unit filename="src/rechercheDesXis.cpp" />
+		<Unit filename="src/reconnaissancenotes.cpp" />
+		<Unit filename="src/selectionUniqueEmpan.cpp" />
+		<Unit filename="src/sellectionPlusieursEmpans.cpp" />
+		<Unit filename="src/sousImagePortee.cpp" />
+		<Unit filename="src/test.cpp" />
+		<Unit filename="src/testrreo.cpp" />
+		<Unit filename="src/xcorr.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,14 @@
+float4 main (
+    float2 C : TEXCOORD0,
+    samplerRECT I) : COLOR
+{
+    float4 result = 0;
+    for (int row = 0; row < 77; row ++)
+    {
+      for (int col = 0; col < 77; col ++)
+      {
+        result = result + texRECT(I, float2(C.x + col, C.y + row)) * texRECT(I, float2(col, row)); 
+      }
+    }
+    return result;
+}

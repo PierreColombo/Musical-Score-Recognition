@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vision", "Vision.vcproj", "{826B2137-C333-4649-9E07-E46177F15C85}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7474B61E-87BC-4E30-9B78-0D3A6FBD11A4} = {7474B61E-87BC-4E30-9B78-0D3A6FBD11A4}
+		{AB88D24C-7620-4924-84BB-647A6F2D9B4C} = {AB88D24C-7620-4924-84BB-647A6F2D9B4C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Math", "..\Math\Math.vcproj", "{7474B61E-87BC-4E30-9B78-0D3A6FBD11A4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MinGPU", "..\MinGPU\MinGPU.vcproj", "{AB88D24C-7620-4924-84BB-647A6F2D9B4C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{826B2137-C333-4649-9E07-E46177F15C85}.Debug.ActiveCfg = Debug|Win32
+		{826B2137-C333-4649-9E07-E46177F15C85}.Debug.Build.0 = Debug|Win32
+		{826B2137-C333-4649-9E07-E46177F15C85}.Release.ActiveCfg = Release|Win32
+		{826B2137-C333-4649-9E07-E46177F15C85}.Release.Build.0 = Release|Win32
+		{7474B61E-87BC-4E30-9B78-0D3A6FBD11A4}.Debug.ActiveCfg = Debug|Win32
+		{7474B61E-87BC-4E30-9B78-0D3A6FBD11A4}.Debug.Build.0 = Debug|Win32
+		{7474B61E-87BC-4E30-9B78-0D3A6FBD11A4}.Release.ActiveCfg = Release|Win32
+		{7474B61E-87BC-4E30-9B78-0D3A6FBD11A4}.Release.Build.0 = Release|Win32
+		{AB88D24C-7620-4924-84BB-647A6F2D9B4C}.Debug.ActiveCfg = Debug|Win32
+		{AB88D24C-7620-4924-84BB-647A6F2D9B4C}.Debug.Build.0 = Debug|Win32
+		{AB88D24C-7620-4924-84BB-647A6F2D9B4C}.Release.ActiveCfg = Release|Win32
+		{AB88D24C-7620-4924-84BB-647A6F2D9B4C}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+Le dossier mathlab contient une version fonctionnelle de la mise en boite des notes.
+	- images test contient des images de test parfois tournée
+	- source code contient le code source
+
+Le dossier C++ contient les fichiers c++ du projet 
+
+Pour plus d'informations se référer au raport, a la soutenance ou bien à la thèse
