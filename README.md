@@ -3,7 +3,7 @@
 ##Traitement d'une partition
 
 ### Introduction
-You would like to transpose your musical score? It takes time a lot of time. We have developed an algorithm in C++ to do it. With this algorithm and a simple picture of the musical score, our algorithm recognizes the notes and the rythms of the score. 
+Development of a Musical Recognition software in Matlab and C++ able to extract the musical data out of any kind of picture of a musical score. Signal and Image Processing techniques were widely used to isolate symbols, and Machine Learningand Statistics were used to differentiate between different symbol types.
 
 ### Our Strategy 
 Example on this score :
@@ -11,12 +11,12 @@ Example on this score :
 To achieve our goal we do the following steps : 
 
 #### Pre-processing the score
-- if there exist a bias we apply a rotation to the picture to make it perfectly horizontal (Done using a convolution product between two halfs of the picture ; not very efficient, implementation of fftw-inspired algorithm is planned)
+- if there exists a bias we apply a rotation to the picture to make it perfectly horizontal (Done using a convolution product between two halfs of the picture )
 - we get the lines of the musical score by summing all the lines of matrix the score
 
 ![detection des lignes](https://cloud.githubusercontent.com/assets/22492839/20073620/345def32-a52d-11e6-9b20-66a258fd335b.jpg)
 
-- we get the line Thickness and the line spacing by using histograms
+- we get the line thickness and the line spacing by using histograms
 
 #### Spliting the score into sub-score
 - by using geometrical considerations we split the score into sub-score
@@ -24,13 +24,13 @@ To achieve our goal we do the following steps :
 ![sousimage2](https://cloud.githubusercontent.com/assets/22492839/20073730/b21bc6b0-a52d-11e6-91d6-b9bfaae67971.jpg)
 ![sousimage3](https://cloud.githubusercontent.com/assets/22492839/20073758/c503f810-a52d-11e6-8293-f887af023504.jpg)
 
-- we substract the lines to the score to avoid noise in our recognition
+- we substract carrefully the lines to the score to avoid noise in our recognition
 
 
 ![sousimage1 sans porte](https://cloud.githubusercontent.com/assets/22492839/20073399/6e40e502-a52c-11e6-859d-c92d120bf63c.jpg)
 
-#### Isolating into box every single notes
-- we use growth algorithms with origin : the queue of the note to put every note into box
+#### Isolating into box every single symbol
+- we use growth algorithms with origin the queue of the note to put every note into box
 
 ![resultat](https://cloud.githubusercontent.com/assets/22492839/20073398/6e401fd2-a52c-11e6-99b0-0f1ccb221589.png)
 
