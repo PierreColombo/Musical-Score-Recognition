@@ -21,6 +21,8 @@ To perform our action we do the following steps :
 #### Spliting the score into sub-score
 - by using geometrical considerations we split the score into sub-score
 ![sousimage1](https://cloud.githubusercontent.com/assets/22492839/20073400/6e413f5c-a52c-11e6-9ae3-a7e6d247f83e.jpg)
+![sousimage2](https://cloud.githubusercontent.com/assets/22492839/20073730/b21bc6b0-a52d-11e6-91d6-b9bfaae67971.jpg)
+![sousimage3](https://cloud.githubusercontent.com/assets/22492839/20073758/c503f810-a52d-11e6-8293-f887af023504.jpg)
 
 - we substract the lines to the score to avoid noise in our recognition
 
