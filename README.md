@@ -13,11 +13,13 @@ To perform our action we do the following steps :
 #### Pre-processing the score
 - if there exist a biais we apply a rotation to the picture to have it horizontally ( we use a convolution product between two part of the picture with a fft in butterfly to do that)
 - we get the lines of the musical score by summing all the lines of matrix the score
+
+![detection des lignes](https://cloud.githubusercontent.com/assets/22492839/20073620/345def32-a52d-11e6-9b20-66a258fd335b.jpg)
+
 - we get the line Thickness and the line spacing by using histograms
 
 #### Spliting the score into sub-score
 - by using geometrical considerations we split the score into sub-score
-![sousimage1 sans porte](https://cloud.githubusercontent.com/assets/22492839/20073399/6e40e502-a52c-11e6-859d-c92d120bf63c.jpg)
 ![sousimage1](https://cloud.githubusercontent.com/assets/22492839/20073400/6e413f5c-a52c-11e6-9ae3-a7e6d247f83e.jpg)
 
 - we substract the lines to the score to avoid noise in our recognition
