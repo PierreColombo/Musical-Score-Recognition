@@ -12,17 +12,24 @@ To perform our action we do the following steps :
 
 #### Pre-processing the score
 - if there exist a biais we apply a rotation to the picture to have it horizontally ( we use a convolution product between two part of the picture with a fft in butterfly to do that)
-![resultat](https://cloud.githubusercontent.com/assets/22492839/20073398/6e401fd2-a52c-11e6-99b0-0f1ccb221589.png)
 - we get the lines of the musical score by summing all the lines of matrix the score
-![sousimage1 sans porte](https://cloud.githubusercontent.com/assets/22492839/20073399/6e40e502-a52c-11e6-859d-c92d120bf63c.jpg)
 - we get the line Thickness and the line spacing by using histograms
-- we substract the lines to the score to avoid noise in our recognition
 
 #### Spliting the score into sub-score
 - by using geometrical considerations we split the score into sub-score
+![sousimage1 sans porte](https://cloud.githubusercontent.com/assets/22492839/20073399/6e40e502-a52c-11e6-859d-c92d120bf63c.jpg)
+![sousimage1](https://cloud.githubusercontent.com/assets/22492839/20073400/6e413f5c-a52c-11e6-9ae3-a7e6d247f83e.jpg)
+
+- we substract the lines to the score to avoid noise in our recognition
+
+
+![sousimage1 sans porte](https://cloud.githubusercontent.com/assets/22492839/20073399/6e40e502-a52c-11e6-859d-c92d120bf63c.jpg)
 
 #### Isolating into box every single notes
 - we use growing algorithms with origin :the queue of the note to put every note into box
+
+![resultat](https://cloud.githubusercontent.com/assets/22492839/20073398/6e401fd2-a52c-11e6-99b0-0f1ccb221589.png)
+
 
 #### Getting the note value & the rythm
 - with template matching applied in every box we decide if this is a quaver, a semiquaver etc.... and get the pitch : if(C,D,E etc...)
