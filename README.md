@@ -12,6 +12,7 @@ To perform our action we do the following steps :
 - if there exist a biais we apply a rotation to the picture to have it horizontally ( we use a convolution product between two part of the picture with a fft in butterfly to do that)
 - we get the lines of the musical score by summing all the lines of matrix the score
 - we get the line Thickness and the line spacing by using histograms
+- we substract the lines to the score to avoid noise in our recognition
 
 #### Spliting the score into sub-score
 - by using geometrical considerations we split the score into sub-score
