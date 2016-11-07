@@ -6,6 +6,8 @@
 You would like to transpose your musical score? It takes time a lot of time. We have developed an algorithm in C++ to do it. With this algorithm and a simple picture of the musical score, our algorithm recognizes the notes and the rythms of the score. 
 
 ### Our Strategy 
+Exemple on this score :
+![imagedebase](https://cloud.githubusercontent.com/assets/22492839/20073374/4a06019a-a52c-11e6-9a69-3666511e7969.jpg)
 To perform our action we do the following steps : 
 
 #### Pre-processing the score
