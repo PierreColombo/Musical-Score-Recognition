@@ -17,11 +17,12 @@ To perform our action we do the following steps :
 - by using geometrical considerations we split the score into sub-score
 
 #### Isolating into box every single notes
-- we use growing algorithms with origin :the queue of the note to 
+- we use growing algorithms with origin :the queue of the note to put every note into box
 
-#### Getting the note value
-
-#### Discovering the rythm
-
+#### Getting the note value & the rythm
+- with template matching applied in every box we decide if this is a quaver, a semiquaver etc.... and get the pitch : if(C,D,E etc...)
 
 ### Conclusion : Results
+Our algorithm is quite efficient on easy score (like you have in the folder), to improve if you could :
+- use a neuronal network to get better accuracy, moreover template matching is very sensitive to the high variability of the symbols...
+- continue to define new responsives templates to discover all th "classical symbols".
