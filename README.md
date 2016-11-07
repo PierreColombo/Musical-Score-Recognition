@@ -11,7 +11,7 @@ Exemple on this score :
 To achieve our goal we do the following steps : 
 
 #### Pre-processing the score
-- if there exist a biais we apply a rotation to the picture to have it horizontally ( we use a convolution product between two part of the picture with a fft in butterfly to do that)
+- if there exist a bias we apply a rotation to the picture to make it perfectly horizontal (Done using a convolution product between two halfs of the picture ; not very efficient, implementing of fftw-inspired algorithm is planned)
 - we get the lines of the musical score by summing all the lines of matrix the score
 
 ![detection des lignes](https://cloud.githubusercontent.com/assets/22492839/20073620/345def32-a52d-11e6-9b20-66a258fd335b.jpg)
@@ -30,7 +30,7 @@ To achieve our goal we do the following steps :
 ![sousimage1 sans porte](https://cloud.githubusercontent.com/assets/22492839/20073399/6e40e502-a52c-11e6-859d-c92d120bf63c.jpg)
 
 #### Isolating into box every single notes
-- we use growing algorithms with origin :the queue of the note to put every note into box
+- we use growth algorithms with origin : the queue of the note to put every note into box
 
 ![resultat](https://cloud.githubusercontent.com/assets/22492839/20073398/6e401fd2-a52c-11e6-99b0-0f1ccb221589.png)
 
