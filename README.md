@@ -39,4 +39,4 @@ To perform our action we do the following steps :
 ### Conclusion : Results
 Our algorithm is quite efficient on easy score (like you have in the folder), to improve if you could :
 - use a neuronal network to get better accuracy, moreover template matching is very sensitive to the high variability of the symbols...
-- continue to define new responsives templates to discover all th "classical symbols".
+- continue to define new responsives templates to discover all "classical symbols".
