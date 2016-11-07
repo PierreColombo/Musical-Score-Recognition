@@ -8,7 +8,7 @@ You would like to transpose your musical score? It takes time a lot of time. We 
 ### Our Strategy 
 Exemple on this score :
 ![imagedebase](https://cloud.githubusercontent.com/assets/22492839/20073374/4a06019a-a52c-11e6-9a69-3666511e7969.jpg)
-To perform our action we do the following steps : 
+To achieve our goal we do the following steps : 
 
 #### Pre-processing the score
 - if there exist a biais we apply a rotation to the picture to have it horizontally ( we use a convolution product between two part of the picture with a fft in butterfly to do that)
