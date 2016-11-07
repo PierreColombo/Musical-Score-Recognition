@@ -39,6 +39,6 @@ To achieve our goal we do the following steps :
 - with template matching applied in every box we decide if this is a quaver, a semiquaver etc.... and get the pitch : if(C,D,E etc...)
 
 ### Conclusion : Results
-Our algorithm is quite efficient on easy score (like you have in the folder), to improve if you could :
+Our algorithm is quite efficient on easy score (like you have in the folder), to improve it we can give several ideas :
 - use a neuronal network to get better accuracy, moreover template matching is very sensitive to the high variability of the symbols...
 - continue to define new responsives templates to discover all "classical symbols".
