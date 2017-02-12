@@ -40,5 +40,5 @@ To achieve our goal we do the following steps :
 
 ### Conclusion : Results
 Our algorithm is quite efficient on standard scores (like you have in the folder), to improve it we can give several ideas :
-- use a neuronal network to get better accuracy, moreover template matching is very sensitive to the high variability of the symbols...
+- use a neural network to get better accuracy, moreover template matching is very sensitive to the high variability of the symbols...
 - continue to define new responsives templates to discover all "classical symbols".
